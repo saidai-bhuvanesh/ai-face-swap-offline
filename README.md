@@ -1,39 +1,11 @@
-# BuildVerse
+# offline face swap
 
-A curated collection of web projects built by the community, for the community. Ship real projects, sharpen your craft, and earn recognition!
+face swap that runs fully on your pc. works on photos and short clips.
 
-[🌐 Live Showcase](https://buildverse-demo.vercel.app/) &nbsp;•&nbsp; [🤝 Contribute](CONTRIBUTING.md)
+## usage
 
-## 🚀 What Is This?
-BuildVerse is a community-driven repository where developers can submit their own static web projects. Every accepted project is automatically showcased on the live website.
+1. grab the exe from releases
+2. pick source face + target photo/video
+3. swap
 
-This repository serves as:
-- A practice ground for Git, GitHub, branching, and pull requests.
-- A portfolio platform where every contributor gets visible credit.
-- A launchpad for open-source programs.
-
-## ⚙️ How It Works
-
-```text
-projects/
-  ├── Task Master Pro/
-  │   ├── README.md
-  │   ├── project.json
-  │   ├── index.html
-  │   └── style.css
-  └── ...
-```
-
-### Submission Flow
-1. Fork the repository and create a new branch.
-2. Add a folder inside `projects/` using Title Case with spaces.
-3. Include your project files along with `README.md` and `project.json`.
-4. Open a Pull Request.
-5. After approval, the showcase updates automatically!
-
-Full contribution rules and the `project.json` schema are available in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## 👨‍💻 Maintainer
-Maintained by [@MistryVishwa](https://github.com/MistryVishwa)
-
-Every merged contribution earns a permanent place in this wall. Thank you for helping future developers learn, build, and grow through open source.
+blend strength slider. uses your gpu if you have one
